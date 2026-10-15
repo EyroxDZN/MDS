@@ -20,5 +20,15 @@ main{
 
 .main-button{
     background-color: #ff00b7;
+    padding: 10px; 
 }
 
+footer{
+    background-color: #000000;
+    padding: 20px; 
+}
+
+.footer-content{
+    background-color: #ff00b7;
+    padding: 10px; 
+}
