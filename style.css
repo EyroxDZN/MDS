@@ -12,15 +12,28 @@ header{
 
 main{
     background-color: #00ff0a;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 10px;
 }
 
 .main-content{
     background-color: #ff00b7;
 }
 
+.main-content{
+    box-sizing: border-box;
+}
+
+.main-content{
+    grid-column: 1;
+}
+
 .main-button{
+    box-sizing: border-box;
     background-color: #ff00b7;
-    padding: 10px; 
+    grid-column: 2;
+    padding: 10px;
 }
 
 footer{
